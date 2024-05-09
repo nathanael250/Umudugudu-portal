@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-secondary{
+    @apply px-2 py-2 mx-auto bg-secondary text-white text-sm font-bold uppercase rounded-lg shadow-md hover:bg-secondary/80 focus:outline-none focus:ring-2 focus:ring-blue-700 cursor-pointer;
+}
+.black-container{
+    @apply bg-slate-800;
+}
+.ai-timeline-wrap {
+    @apply pl-10 mr-4 border-l border-l-slate-700;
+    /* padding-left: 40px;
+    margin-left: 20px;
+    border-left: 1px solid red; */
+  }
+
+  .ai-timeline {
+    position: relative;
+    padding-top:0px;
+  }
+  
+  .ai-timeline::before {
+    
+    position: absolute;
+    content: "";
+    top: 7px;
+    border: 2px solid #232935;
+    border-radius: 50%;
+    background-color: #101624;
+    width: 13px;
+    height: 13px;
+   
+    left: -47px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  .ai-timeline .ai-timeline-duration {
+    font-size: 18px;
+    margin-bottom: 21px;
+  }
+  .ai-timeline:hover::before {
+    @apply bg-primary
+  }

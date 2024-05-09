@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umudugudu Portal</title>
+    <meta name="description" content="">
+    <link href="src/output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="/asset/favicon.ico">
+    <!-- Tailwind -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+        .font-family-karla {
+            font-family: karla;
+        }
+
+
+
+        .cta-btn {
+            @apply bg-sky-900;
+        }
+
+        .upgrade-btn {
+            @apply bg-sky-900;
+        }
+
+        .upgrade-btn:hover {
+            @apply bg-sky-900;
+        }
+
+        .active-nav-link {
+            @apply bg-sky-900;
+        }
+
+        .nav-item:hover {
+            @apply bg-sky-900;
+        }
+
+        .account-link:hover {
+            @apply bg-sky-900;
+        }
+
+        .cards {
+            @apply bg-sky-900;
+        }
+    </style>
+</head>
+
+
+
+
+<body>
+    <div class=" w-full hidden md:block">
+        <div class="w-full h-16 bg-sky-900 mx-auto overflow-x-auto">
+            <div class="flex justify-between items-center w-full h-full px-8">
+                <h1 class="text-2xl font-bold text-white">Umudugudu Portal</h1>
+                <div class="flex justify-center space-x-4 lg:pt-0 lg:col-end-13">
+                    <a rel="noopener noreferrer" href="#" title="Email"
+                        class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-400 text-gray-50">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                        </svg>
+                    </a>
+                    <a rel="noopener noreferrer" href="#" title="Twitter"
+                        class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-400 text-gray-50">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor" class="w-5 h-5">
+                            <path
+                                d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a rel="noopener noreferrer" href="#" title="GitHub"
+                        class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-400 text-gray-50">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a rel="noopener noreferrer" href="#" title="GitHub"
+                        class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-400 text-gray-50">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                            </path>
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="w-full h-16 bg-white border-b-2 border-slate-300">
+            <div class="flex justify-end pr-8 items-center w-full h-full">
+                <div class="text-xl font-semibold space-x-5 flex text-purple-600">
+                    <a href="#home" class="group text-sky-900 transition duration-300">Home<span
+                            class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-900"></span></a>
+                    <a href="#about" class="group text-sky-900 transition duration-300">About Us<span
+                            class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-900"></span></a>
+                            <a href="#about" class="group text-sky-900 transition duration-300">Services<span
+                                class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-900"></span></a>
+                    <a href="#contact" class="group text-sky-900 transition duration-300">Contact<span
+                            class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-sky-900"></span></a>
+
+                </div>
+                <div class="pl-8">
+
+
+                    <button data-twe-toggle="modal" data-twe-target="topUpModal"
+                        class="block text-white bg-sky-900 hover:bg-sky-900 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        type="button">
+                        Login
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- form model -->
+        <div id="modalOverlay" class="fixed inset-0 bg-black opacity-50 hidden" aria-hidden="true"></div>
+
+        <div id="topUpModal" class="fixed inset-0 flex items-center justify-center z-50 hidden" aria-hidden="true">
+            <div class="bg-white p-6 rounded shadow-lg w-1/2 relative">
+                <!-- Close button (X icon) -->
+                <button data-twe-toggle="modal" data-twe-target="topUpModal"
+                    class="absolute top-0 right-0 m-4 text-gray-600 hover:text-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        class="h-6 w-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                        </path>
+                    </svg>
+                </button>
+
+
+                <form method="get" action="/ebook-dashboard/index.html">
+                    <div class="mb-4">
+                        <label for="amount" class="block text-gray-700 font-bold mb-2">
+                            User Name
+                        </label>
+                        <input type="text" id="amount" name="amount" class="border rounded w-full py-2 px-3 bg-gray-300"
+                            placeholder="Enter User Name" />
+                        <label for="amount" class="block text-gray-700 font-bold mb-2">
+                            Password
+                        </label>
+                        <input type="password" id="amount" name="amount"
+                            class="border rounded w-full py-2 px-3 bg-gray-300" placeholder="Enter Password" />
+                    </div>
+
+                    <button class="cards hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        login
+                    </button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- mobile navigation -->
+    <header x-data="{ isOpen: false }" class="w-full bg-sky-900 py-5 px-6 md:hidden">
+        <div class="flex  items-center justify-between">
+            <h1 class="text-2xl font-bold text-white">Umudugudu Portal</h1>
+            <button @click="isOpen = !isOpen" class="text-white text-3xl focus:outline-none">
+                <i x-show="!isOpen" class="fas fa-bars"></i>
+                <i x-show="isOpen" class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <!-- Dropdown Nav -->
+        <nav :class="isOpen ? 'flex':'hidden'" class="flex flex-col pt-4 duration-500 fade-in">
+            <a href="#home" class="flex items-center text-white py-2 pl-4 nav-item">
+                Home
+            </a>
+            <a href="#about" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-4 nav-item">
+                About Us
+            </a>
+            <a href="#contact" class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
+                Contact
+            </a>
+            </a>
+            <a href="./ebook-dashboard/index.html"
+                class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
+                Login
+            </a>
+            <div class="flex justify-center items-center w-full h-full px-8 mt-6 pt-4 border-t-2 border-slate-400">
+
+                <div class="flex justify-center space-x-4 lg:pt-0 lg:col-end-13">
+                    <a rel="noopener noreferrer" href="#" title="Email"
+                        class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-400 text-gray-50">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                        </svg>
+                    </a>
+                    <a rel="noopener noreferrer" href="#" title="Twitter"
+                        class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-400 text-gray-50">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor" class="w-5 h-5">
+                            <path
+                                d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a rel="noopener noreferrer" href="#" title="GitHub"
+                        class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-400 text-gray-50">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a rel="noopener noreferrer" href="#" title="GitHub"
+                        class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-400 text-gray-50">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                            </path>
+                        </svg>
+                    </a>
+
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="">
+     <div class="relative w-full h-screen">
+        <img src="/asset/front-bg.jpg" alt="" class="object-cover w-full h-full">
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+     </div>
+    </section>
+    <section id="service">
+        <div class="max-w-6xl py-24 mx-auto">
+            <div class="flex  flex-wrap w-full">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Our services</h1>
+                    <div class="h-1 w-20 bg-sky-900 rounded"></div>
+                </div>
+               <div class="grid grid-cols-4 pt-4 gap-4">
+                <div class="border border-slate-500 p-4 flex flex-col gap-2 justify-center items-center">
+                    <div>
+                        <span class="text-lg font-semibold text-sky-900">Service Name</span>
+                    </div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugit nobis repellendus, doloribus harum, eos fugiat maiores sapiente maxime quos quaerat esse? Dolorum reiciendis esse molestiae maxime! Blanditiis, itaque culpa.</div> 
+                </div>
+                <div class="border border-slate-500 p-4 flex flex-col gap-2 justify-center items-center">
+                    <div>
+                        <span class="text-lg font-semibold text-sky-900">Service Name</span>
+                    </div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugit nobis repellendus, doloribus harum, eos fugiat maiores sapiente maxime quos quaerat esse? Dolorum reiciendis esse molestiae maxime! Blanditiis, itaque culpa.</div> 
+                </div>
+                <div class="border border-slate-500 p-4 flex flex-col gap-2 justify-center items-center">
+                    <div>
+                        <span class="text-lg font-semibold text-sky-900">Service Name</span>
+                    </div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugit nobis repellendus, doloribus harum, eos fugiat maiores sapiente maxime quos quaerat esse? Dolorum reiciendis esse molestiae maxime! Blanditiis, itaque culpa.</div> 
+                </div>
+                <div class="border border-slate-500 p-4 flex flex-col gap-2 justify-center items-center">
+                    <div>
+                        <span class="text-lg font-semibold text-sky-900">Service Name</span>
+                    </div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugit nobis repellendus, doloribus harum, eos fugiat maiores sapiente maxime quos quaerat esse? Dolorum reiciendis esse molestiae maxime! Blanditiis, itaque culpa.</div> 
+                </div>
+                <div class="border border-slate-500 p-4 flex flex-col gap-2 justify-center items-center">
+                    <div>
+                        <span class="text-lg font-semibold text-sky-900">Service Name</span>
+                    </div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugit nobis repellendus, doloribus harum, eos fugiat maiores sapiente maxime quos quaerat esse? Dolorum reiciendis esse molestiae maxime! Blanditiis, itaque culpa.</div> 
+                </div>
+                <div class="border border-slate-500 p-4 flex flex-col gap-2 justify-center items-center">
+                    <div>
+                        <span class="text-lg font-semibold text-sky-900">Service Name</span>
+                    </div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugit nobis repellendus, doloribus harum, eos fugiat maiores sapiente maxime quos quaerat esse? Dolorum reiciendis esse molestiae maxime! Blanditiis, itaque culpa.</div> 
+                </div>
+                <div class="border border-slate-500 p-4 flex flex-col gap-2 justify-center items-center">
+                    <div>
+                        <span class="text-lg font-semibold text-sky-900">Service Name</span>
+                    </div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugit nobis repellendus, doloribus harum, eos fugiat maiores sapiente maxime quos quaerat esse? Dolorum reiciendis esse molestiae maxime! Blanditiis, itaque culpa.</div> 
+                </div>
+                <div class="border border-slate-500 p-4 flex flex-col gap-2 justify-center items-center">
+                    <div>
+                        <span class="text-lg font-semibold text-sky-900">Service Name</span>
+                    </div>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugit nobis repellendus, doloribus harum, eos fugiat maiores sapiente maxime quos quaerat esse? Dolorum reiciendis esse molestiae maxime! Blanditiis, itaque culpa.</div> 
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class=" max-w-6xl px-5 py-24 mx-auto ">
+            <div class="flex flex-wrap w-full mb-20 ">
+                <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About Us</h1>
+                    <div class="h-1 w-20 bg-sky-900 rounded"></div>
+                </div>
+
+            </div>
+            <div class="bg-white py-6 sm:py-8 lg:py-12">
+                <div class="mx-auto max-w-screen-xl px-4 md:px-8">
+                    <div class="grid gap-8 md:grid-cols-2 lg:gap-5">
+                        <div>
+                            <div class="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
+                                <img src="./asset/vill.jpg" loading="lazy" alt="Photo by Martin Sanchez"
+                                    class="h-full w-full object-cover object-center" />
+                            </div>
+                        </div>
+
+                        <div class="md:pt-8">
+                            <p class="text-center font-bold text-indigo-500 md:text-left">Who we are</p>
+
+                            <h1
+                                class="mb-4 text-center text-2xl font-bold text-gray-800 sm:text-3xl md:mb-6 md:text-left">
+                                Our competitive advantage</h1>
+
+                            <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">
+                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Et molestias veniam quia sit architecto ipsum nostrum deleniti totam officiis quod repudiandae at maxime nesciunt corrupti veritatis libero sed, possimus animi.<br /><br />
+
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur rerum assumenda distinctio, rem cum impedit illum in ducimus ullam, ipsam quasi corporis laborum pariatur ratione iste, maxime sit voluptatum iusto.
+                            </p>
+
+                            <h2
+                                class="mb-2 text-center text-xl font-semibold text-gray-800 sm:text-2xl md:mb-4 md:text-left">
+                                About us</h2>
+
+                            <p class="mb-6 text-gray-500 sm:text-lg md:mb-8">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto minima possimus qui hic velit sequi ea? Et neque dolorum illo, officiis exercitationem, error quis cumque vero voluptas provident blanditiis nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut cumque distinctio ea amet rerum soluta mollitia velit itaque repudiandae ipsum autem ex, ut eum esse consectetur? Ex, ipsa omnis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-slate-300 body-font relative bg-sky-900" id="contact">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-12">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-slate-200">Contact Us</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base  capitalize">Get in touch with us and we will be
+                    able to find how we can help you.</p>
+            </div>
+            <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                <div class="flex flex-wrap -m-2">
+                    <div class="p-2 w-1/2">
+                        <div class="relative">
+                            <label for="name" class="leading-7 text-sm text-white">Name</label>
+                            <input type="text" id="name" name="name"
+                                class="w-full bg-blue-200 bg-opacity-50 rounded border border-white/15 focus:border-indigo-500 focus:text-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                    </div>
+                    <div class="p-2 w-1/2">
+                        <div class="relative">
+                            <label for="email" class="leading-7 text-sm text-white">Email</label>
+                            <input type="email" id="email" name="email"
+                                class="w-full bg-blue-200 bg-opacity-50 rounded border border-white/15 focus:border-indigo-500 focus:text-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                    </div>
+                    <div class="p-2 w-full">
+                        <div class="relative">
+                            <label for="message" class="leading-7 text-sm text-white">Message</label>
+                            <textarea id="message" name="message"
+                                class="w-full bg-blue-200 bg-opacity-50 rounded border border-white/15 focus:border-indigo-500 focus:text-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                        </div>
+                    </div>
+                    <div class="p-2 w-full">
+                        <button
+                            class="flex mx-auto text-indigo-500 bg-slate-300 border-0 py-2 px-8 focus:outline-none hover:bg-slate-400 rounded text-lg">Button</button>
+                    </div>
+                    <div class="p-2 w-full pt-8 mt-8 border-t border-white text-center">
+                        <a class="text-indigo-500">email@gmail.com</a>
+                        <p class="leading-normal my-5">Address Location
+                            <br>Location
+                        </p>
+                        <span class="inline-flex">
+                            <a class="text-gray-100">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                </svg>
+                            </a>
+                            <a class="ml-4 text-gray-100">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a class="ml-4 text-gray-100">
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                                </svg>
+                            </a>
+                            <a class="ml-4 text-gray-100">
+                                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    class="w-5 h-5" viewBox="0 0 24 24">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="py-6 bg-gray-100 text-gray-900">
+        <div class=" px-6 max-w-6xl mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50">
+            <div class="grid grid-cols-4 gap-4 justify-between items-center">
+                <div class="grid col-span-3 md:pb-0">
+                    <a rel="noopener noreferrer" href="#" class="flex justify-center space-x-3 md:justify-start">
+                        <h1 class="text-2xl font-bold text-sky-900">Umudugudu Portal</h1>
+                    </a>
+                    <p>Umudugudu portal is a website that help village citizens to be updated with expected activities and be able to get some documents online, it also aims to assist village guests to make registration without interacting with village leader face to face.</p>
+                </div>
+                <div class="grid col-span-1 text-center md:text-left">
+                    <p class="pb-1 text-lg font-medium">Quick Links</p>
+                    <ul>
+                        <li>
+                            <a rel="noopener noreferrer" href="#" class="hover:text-green-900">Home</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" href="#" class="hover:text-green-900">Abou Us</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" href="#" class="hover:text-green-900">Contact</a>
+                        </li>
+                        <li>
+                            <a rel="noopener noreferrer" href="#" class="hover:text-green-900">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+               
+            </div>
+            <div class="grid justify-center pt-6 lg:justify-between px-4">
+                <div class="flex flex-col self-center text-sm text-center md:block lg:col-start-1 md:space-x-6">
+                    <span>©2024 All rights reserved</span>
+                    <a rel="noopener noreferrer" href="#">
+                        <span>Privacy policy</span>
+                    </a>
+                    <a rel="noopener noreferrer" href="#">
+                        <span>Terms of service</span>
+                    </a>
+                </div>
+                <div class="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13">
+                    <a rel="noopener noreferrer" href="#" title="Email"
+                        class="flex items-center justify-center w-10 h-10 rounded-full bg-sky-900 text-gray-50">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                        </svg>
+                    </a>
+                    <a rel="noopener noreferrer" href="#" title="Twitter"
+                        class="flex items-center justify-center w-10 h-10 rounded-full bg-sky-900 text-gray-50">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor" class="w-5 h-5">
+                            <path
+                                d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a rel="noopener noreferrer" href="#" title="GitHub"
+                        class="flex items-center justify-center w-10 h-10 rounded-full bg-sky-900 text-gray-50">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a rel="noopener noreferrer" href="#" title="GitHub"
+                        class="flex items-center justify-center w-10 h-10 rounded-full bg-sky-900 text-gray-50">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- AlpineJS -->
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+        integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+    <!-- ChartJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+        integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const modalTrigger = document.querySelector("[data-twe-toggle='modal']");
+            const modal = document.getElementById("topUpModal");
+            const overlay = document.getElementById("modalOverlay");
+
+            modalTrigger.addEventListener("click", function () {
+                modal.classList.toggle("hidden");
+                overlay.classList.toggle("hidden");
+            });
+
+            const closeButton = document.querySelector("#topUpModal button[data-twe-toggle='modal']");
+            closeButton.addEventListener("click", function () {
+                modal.classList.add("hidden");
+                overlay.classList.add("hidden");
+            });
+        });
+    </script>
+</body>
+
+</html>
