@@ -43,3 +43,7 @@
   .ai-timeline:hover::before {
     @apply bg-primary
   }
+
+  .gotpbtn{
+    background-color: aqua;
+  }
